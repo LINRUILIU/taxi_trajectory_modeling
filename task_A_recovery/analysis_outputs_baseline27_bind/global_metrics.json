@@ -1,0 +1,30 @@
+{
+  "1/8": {
+    "count": 1092547,
+    "mae": 81.67832495518944,
+    "rmse": 109.22169872508059,
+    "p75": 113.15883822198073,
+    "p95": 220.2584614770448,
+    "topology_violation_rate": 0.041166666666666664,
+    "topology_violation_count": 1235,
+    "topology_eval_points": 30000,
+    "topology_total_missing_points": 1092547,
+    "topology_nearest_road_mean_m": 5.605379314470961,
+    "topology_nearest_road_p95_m": 31.18364830811305,
+    "topology_violation_threshold_m": 35.0
+  },
+  "1/16": {
+    "count": 1170232,
+    "mae": 142.57781923019576,
+    "rmse": 192.30836290905694,
+    "p75": 196.40428373560957,
+    "p95": 393.2274889705751,
+    "topology_violation_rate": 0.1041,
+    "topology_violation_count": 3123,
+    "topology_eval_points": 30000,
+    "topology_total_missing_points": 1170232,
+    "topology_nearest_road_mean_m": 10.691343190045052,
+    "topology_nearest_road_p95_m": 52.832523772387056,
+    "topology_violation_threshold_m": 35.0
+  }
+}

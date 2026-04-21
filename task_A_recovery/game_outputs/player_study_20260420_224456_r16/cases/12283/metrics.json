@@ -1,0 +1,84 @@
+{
+  "traj_id": 12283,
+  "missing_count": 51,
+  "player": {
+    "count": 36,
+    "total_missing": 51,
+    "evaluated_missing": 36,
+    "unfilled_missing": 15,
+    "mae": 268.57030736548154,
+    "rmse": 337.435875299512,
+    "p75": 451.2379335791686,
+    "p95": 606.5049266827494
+  },
+  "baseline23_e5": {
+    "count": 51,
+    "total_missing": 51,
+    "evaluated_missing": 51,
+    "unfilled_missing": 0,
+    "mae": 141.61877832742252,
+    "rmse": 183.52581622891347,
+    "p75": 185.59035485883612,
+    "p95": 398.98976120391563
+  },
+  "baseline28_turncurve": {
+    "count": 51,
+    "total_missing": 51,
+    "evaluated_missing": 51,
+    "unfilled_missing": 0,
+    "mae": 94.91973956991022,
+    "rmse": 115.12155874492768,
+    "p75": 140.6201522972844,
+    "p95": 212.56257005700672
+  },
+  "delta_player_vs_b23_mae": 126.95152903805902,
+  "delta_player_vs_b28_mae": 173.6505677955713,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 16,
+      "missing_count": 15,
+      "delta_t_sec": 280.0,
+      "mae_player": 414.91376015350227,
+      "mae_b23": 228.16991525450092,
+      "mae_b28": 96.06836276722775
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 16,
+      "end_idx": 32,
+      "missing_count": 15,
+      "delta_t_sec": 243.0,
+      "mae_player": NaN,
+      "mae_b23": 70.63300473427428,
+      "mae_b28": 63.96752192591193
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 32,
+      "end_idx": 48,
+      "missing_count": 15,
+      "delta_t_sec": 257.0,
+      "mae_player": 143.64496917770992,
+      "mae_b23": 153.1124026854486,
+      "mae_b28": 137.0743281652581
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 48,
+      "end_idx": 55,
+      "missing_count": 6,
+      "delta_t_sec": 95.0,
+      "mae_player": 215.02502086485867,
+      "mae_b23": 73.97130909753197,
+      "mae_b28": 64.04225419824243
+    }
+  ],
+  "completion": {
+    "total_missing": 51,
+    "filled_missing": 36,
+    "unfilled_missing": 15
+  },
+  "is_complete": false
+}

@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual env
+.venv/
+venv/
+
+# Binary artifacts
+*.pkl
+*.joblib
+*.bin
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs and temp
+*.log
+*.tmp

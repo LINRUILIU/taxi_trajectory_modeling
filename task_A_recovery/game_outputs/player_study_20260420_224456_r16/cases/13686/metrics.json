@@ -1,0 +1,84 @@
+{
+  "traj_id": 13686,
+  "missing_count": 58,
+  "player": {
+    "count": 13,
+    "total_missing": 58,
+    "evaluated_missing": 13,
+    "unfilled_missing": 45,
+    "mae": 528.7873648816404,
+    "rmse": 565.6872058971004,
+    "p75": 618.5249753937278,
+    "p95": 864.5439020175552
+  },
+  "baseline23_e5": {
+    "count": 58,
+    "total_missing": 58,
+    "evaluated_missing": 58,
+    "unfilled_missing": 0,
+    "mae": 94.1565270770742,
+    "rmse": 116.46868841039695,
+    "p75": 146.42790627343916,
+    "p95": 206.0994289252806
+  },
+  "baseline28_turncurve": {
+    "count": 58,
+    "total_missing": 58,
+    "evaluated_missing": 58,
+    "unfilled_missing": 0,
+    "mae": 88.74295333560482,
+    "rmse": 112.06644091107692,
+    "p75": 136.06135472630868,
+    "p95": 200.2678370275366
+  },
+  "delta_player_vs_b23_mae": 434.6308378045662,
+  "delta_player_vs_b28_mae": 440.0444115460356,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 16,
+      "missing_count": 15,
+      "delta_t_sec": 244.0,
+      "mae_player": NaN,
+      "mae_b23": 47.83208046778257,
+      "mae_b28": 46.9091995209778
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 16,
+      "end_idx": 32,
+      "missing_count": 15,
+      "delta_t_sec": 249.0,
+      "mae_player": NaN,
+      "mae_b23": 136.7577197498155,
+      "mae_b28": 120.76073868115746
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 32,
+      "end_idx": 48,
+      "missing_count": 15,
+      "delta_t_sec": 252.0,
+      "mae_player": NaN,
+      "mae_b23": 133.02291040499733,
+      "mae_b28": 135.29627301456998
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 48,
+      "end_idx": 62,
+      "missing_count": 13,
+      "delta_t_sec": 203.0,
+      "mae_player": 528.7873648816404,
+      "mae_b23": 53.606762394720946,
+      "mae_b28": 46.35370193957699
+    }
+  ],
+  "completion": {
+    "total_missing": 58,
+    "filled_missing": 13,
+    "unfilled_missing": 45
+  },
+  "is_complete": false
+}

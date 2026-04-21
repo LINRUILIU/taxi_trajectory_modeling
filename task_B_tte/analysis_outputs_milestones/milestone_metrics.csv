@@ -1,0 +1,4 @@
+order,timestamp,milestone,count,mae,rmse,mape,analysis_dir,pred_file
+1,2026-04-20T13:52:00,baseline_hgb_v1,16582,16.3876150577312,25.48436715760524,1.410488988739928,task_B_tte\analysis_outputs_baseline_hgb,task_B_tte\pred_val_baseline_hgb.pkl
+2,2026-04-20T14:04:24,map_hgb_v1,16582,16.399533126120883,25.52034538468083,1.411668511626042,task_B_tte\analysis_outputs_map_hgb,task_B_tte\pred_val_map_hgb.pkl
+3,2026-04-20T14:40:17,phase4_residual_ensemble_v1,16582,16.374663005621276,25.408018845648012,1.410229931418416,task_B_tte\analysis_outputs_phase4_residual_ensemble,task_B_tte\pred_val_phase4_residual_ensemble.pkl

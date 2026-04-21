@@ -1,0 +1,84 @@
+{
+  "traj_id": 14748,
+  "missing_count": 57,
+  "player": {
+    "count": 30,
+    "total_missing": 57,
+    "evaluated_missing": 30,
+    "unfilled_missing": 27,
+    "mae": 155.45445019680903,
+    "rmse": 182.077125279215,
+    "p75": 205.05819113562933,
+    "p95": 322.7660801108472
+  },
+  "baseline23_e5": {
+    "count": 57,
+    "total_missing": 57,
+    "evaluated_missing": 57,
+    "unfilled_missing": 0,
+    "mae": 116.09499013824632,
+    "rmse": 148.0073779369732,
+    "p75": 182.29843477215744,
+    "p95": 269.47308393204156
+  },
+  "baseline28_turncurve": {
+    "count": 57,
+    "total_missing": 57,
+    "evaluated_missing": 57,
+    "unfilled_missing": 0,
+    "mae": 109.3875661612032,
+    "rmse": 140.99477052029096,
+    "p75": 169.53936715765215,
+    "p95": 272.1519073166428
+  },
+  "delta_player_vs_b23_mae": 39.35946005856272,
+  "delta_player_vs_b28_mae": 46.06688403560584,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 16,
+      "missing_count": 15,
+      "delta_t_sec": 246.0,
+      "mae_player": 211.34632750063278,
+      "mae_b23": 166.80527424426268,
+      "mae_b28": 172.34051735607298
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 16,
+      "end_idx": 32,
+      "missing_count": 15,
+      "delta_t_sec": 255.0,
+      "mae_player": 99.56257289298533,
+      "mae_b23": 118.64957116445227,
+      "mae_b28": 105.7839057754495
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 32,
+      "end_idx": 48,
+      "missing_count": 15,
+      "delta_t_sec": 243.0,
+      "mae_player": NaN,
+      "mae_b23": 141.37248336030012,
+      "mae_b28": 102.0419800000167
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 48,
+      "end_idx": 61,
+      "missing_count": 12,
+      "delta_t_sec": 198.0,
+      "mae_player": NaN,
+      "mae_b23": 17.917042195401173,
+      "mae_b28": 44.382935351291216
+    }
+  ],
+  "completion": {
+    "total_missing": 57,
+    "filled_missing": 30,
+    "unfilled_missing": 27
+  },
+  "is_complete": false
+}

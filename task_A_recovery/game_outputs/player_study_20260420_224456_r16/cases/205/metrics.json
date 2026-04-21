@@ -1,0 +1,84 @@
+{
+  "traj_id": 205,
+  "missing_count": 60,
+  "player": {
+    "count": 15,
+    "total_missing": 60,
+    "evaluated_missing": 15,
+    "unfilled_missing": 45,
+    "mae": 453.42405583702646,
+    "rmse": 584.263586401824,
+    "p75": 712.0717646708194,
+    "p95": 1096.230451419833
+  },
+  "baseline23_e5": {
+    "count": 60,
+    "total_missing": 60,
+    "evaluated_missing": 60,
+    "unfilled_missing": 0,
+    "mae": 188.92607070327313,
+    "rmse": 235.95659569376397,
+    "p75": 312.6463779845588,
+    "p95": 457.4235902557596
+  },
+  "baseline28_turncurve": {
+    "count": 60,
+    "total_missing": 60,
+    "evaluated_missing": 60,
+    "unfilled_missing": 0,
+    "mae": 180.7704416984701,
+    "rmse": 223.27991959168267,
+    "p75": 294.0596435079367,
+    "p95": 399.5200790122805
+  },
+  "delta_player_vs_b23_mae": 264.49798513375333,
+  "delta_player_vs_b28_mae": 272.65361413855635,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 16,
+      "missing_count": 15,
+      "delta_t_sec": 273.0,
+      "mae_player": NaN,
+      "mae_b23": 123.1391712279357,
+      "mae_b28": 131.77463431261862
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 16,
+      "end_idx": 32,
+      "missing_count": 15,
+      "delta_t_sec": 286.0,
+      "mae_player": NaN,
+      "mae_b23": 217.99438168448125,
+      "mae_b28": 213.89784756361487
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 32,
+      "end_idx": 48,
+      "missing_count": 15,
+      "delta_t_sec": 256.0,
+      "mae_player": 453.42405583702646,
+      "mae_b23": 94.12655243494842,
+      "mae_b28": 91.35812495257697
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 48,
+      "end_idx": 64,
+      "missing_count": 15,
+      "delta_t_sec": 259.0,
+      "mae_player": NaN,
+      "mae_b23": 320.44417746572725,
+      "mae_b28": 286.05115996506987
+    }
+  ],
+  "completion": {
+    "total_missing": 60,
+    "filled_missing": 15,
+    "unfilled_missing": 45
+  },
+  "is_complete": false
+}

@@ -1,0 +1,84 @@
+{
+  "traj_id": 341,
+  "missing_count": 53,
+  "player": {
+    "count": 30,
+    "total_missing": 53,
+    "evaluated_missing": 30,
+    "unfilled_missing": 23,
+    "mae": 199.34707423832495,
+    "rmse": 241.393765918966,
+    "p75": 310.0876241511026,
+    "p95": 423.6521650149144
+  },
+  "baseline23_e5": {
+    "count": 53,
+    "total_missing": 53,
+    "evaluated_missing": 53,
+    "unfilled_missing": 0,
+    "mae": 177.19661506528624,
+    "rmse": 206.12556099543679,
+    "p75": 252.84332126906264,
+    "p95": 370.4280553890384
+  },
+  "baseline28_turncurve": {
+    "count": 53,
+    "total_missing": 53,
+    "evaluated_missing": 53,
+    "unfilled_missing": 0,
+    "mae": 184.13318561457712,
+    "rmse": 210.54813311292227,
+    "p75": 249.4159916917677,
+    "p95": 353.38292061519934
+  },
+  "delta_player_vs_b23_mae": 22.150459173038712,
+  "delta_player_vs_b28_mae": 15.213888623747835,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 16,
+      "missing_count": 15,
+      "delta_t_sec": 249.0,
+      "mae_player": 230.68533729628518,
+      "mae_b23": 135.15100593631925,
+      "mae_b28": 185.03919792669993
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 16,
+      "end_idx": 32,
+      "missing_count": 15,
+      "delta_t_sec": 249.0,
+      "mae_player": NaN,
+      "mae_b23": 208.24848365842956,
+      "mae_b28": 201.479101085893
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 32,
+      "end_idx": 48,
+      "missing_count": 15,
+      "delta_t_sec": 249.0,
+      "mae_player": 168.00881118036466,
+      "mae_b23": 183.1733507050321,
+      "mae_b28": 164.55833377601272
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 48,
+      "end_idx": 57,
+      "missing_count": 8,
+      "delta_t_sec": 135.0,
+      "mae_player": NaN,
+      "mae_b23": 186.60349924543186,
+      "mae_b28": 186.61366821793797
+    }
+  ],
+  "completion": {
+    "total_missing": 53,
+    "filled_missing": 30,
+    "unfilled_missing": 23
+  },
+  "is_complete": false
+}

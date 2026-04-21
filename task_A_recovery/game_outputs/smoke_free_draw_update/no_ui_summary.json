@@ -1,0 +1,17 @@
+{
+  "dataset": "16",
+  "requested_case_count": 10,
+  "valid_case_count": 10,
+  "valid_case_ids": [
+    13033,
+    9064,
+    2364,
+    2126,
+    4778,
+    1486,
+    12813,
+    11261,
+    13,
+    9991
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "global": {
+    "count": 16582,
+    "mae": 16.399533126120883,
+    "rmse": 25.52034538468083,
+    "mape": 1.411668511626042,
+    "bias": -0.4111665237687888,
+    "p50_abs_error": 11.871410924433121,
+    "p90_abs_error": 33.17619847107796,
+    "p95_abs_error": 45.4838353313484
+  },
+  "coverage": {
+    "gt_count": 16582,
+    "pred_count": 16582,
+    "matched_count": 16582,
+    "missing_pred_count": 0,
+    "extra_pred_count": 0,
+    "missing_pred_preview": [],
+    "extra_pred_preview": []
+  },
+  "meta": {
+    "generated_at": "2026-04-20T14:04:23",
+    "pred": "task_B_tte\\pred_val_map_hgb.pkl",
+    "gt": "task_B_tte\\val_gt.pkl",
+    "input": "task_B_tte\\val_input.pkl"
+  }
+}

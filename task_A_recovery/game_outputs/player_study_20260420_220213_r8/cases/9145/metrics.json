@@ -1,0 +1,174 @@
+{
+  "traj_id": 9145,
+  "missing_count": 85,
+  "player": {
+    "count": 28,
+    "total_missing": 85,
+    "evaluated_missing": 28,
+    "unfilled_missing": 57,
+    "mae": 211.59547128114386,
+    "rmse": 275.39510636145127,
+    "p75": 267.38347797438047,
+    "p95": 525.7188838623945
+  },
+  "baseline23_e5": {
+    "count": 85,
+    "total_missing": 85,
+    "evaluated_missing": 85,
+    "unfilled_missing": 0,
+    "mae": 77.54318815789492,
+    "rmse": 107.1356107769658,
+    "p75": 112.57031232914198,
+    "p95": 237.92195759381158
+  },
+  "baseline28_turncurve": {
+    "count": 85,
+    "total_missing": 85,
+    "evaluated_missing": 85,
+    "unfilled_missing": 0,
+    "mae": 76.78564786709751,
+    "rmse": 104.85978340438845,
+    "p75": 123.3314614702668,
+    "p95": 215.4545793351439
+  },
+  "delta_player_vs_b23_mae": 134.05228312324894,
+  "delta_player_vs_b28_mae": 134.80982341404635,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 8,
+      "missing_count": 7,
+      "delta_t_sec": 123.0,
+      "mae_player": NaN,
+      "mae_b23": 35.811954069992886,
+      "mae_b28": 40.6072627107241
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 8,
+      "end_idx": 16,
+      "missing_count": 7,
+      "delta_t_sec": 126.0,
+      "mae_player": 133.0016701100347,
+      "mae_b23": 130.1847773085918,
+      "mae_b28": 143.14762799590034
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 16,
+      "end_idx": 24,
+      "missing_count": 7,
+      "delta_t_sec": 126.0,
+      "mae_player": NaN,
+      "mae_b23": 47.42841634040939,
+      "mae_b28": 43.043108765899824
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 24,
+      "end_idx": 32,
+      "missing_count": 7,
+      "delta_t_sec": 120.0,
+      "mae_player": NaN,
+      "mae_b23": 79.00958287748082,
+      "mae_b28": 82.77693953210029
+    },
+    {
+      "gap_index": 4,
+      "start_idx": 32,
+      "end_idx": 40,
+      "missing_count": 7,
+      "delta_t_sec": 120.0,
+      "mae_player": NaN,
+      "mae_b23": 199.4630731263135,
+      "mae_b28": 176.49811227447648
+    },
+    {
+      "gap_index": 5,
+      "start_idx": 40,
+      "end_idx": 48,
+      "missing_count": 7,
+      "delta_t_sec": 126.0,
+      "mae_player": 251.16973015326442,
+      "mae_b23": 55.93495126255821,
+      "mae_b28": 65.02830788278463
+    },
+    {
+      "gap_index": 6,
+      "start_idx": 48,
+      "end_idx": 56,
+      "missing_count": 7,
+      "delta_t_sec": 123.0,
+      "mae_player": NaN,
+      "mae_b23": 89.32539343699811,
+      "mae_b28": 103.56036187988596
+    },
+    {
+      "gap_index": 7,
+      "start_idx": 56,
+      "end_idx": 64,
+      "missing_count": 7,
+      "delta_t_sec": 135.0,
+      "mae_player": 319.24903460721754,
+      "mae_b23": 48.08808759663164,
+      "mae_b28": 34.703589259514565
+    },
+    {
+      "gap_index": 8,
+      "start_idx": 64,
+      "end_idx": 72,
+      "missing_count": 7,
+      "delta_t_sec": 120.0,
+      "mae_player": 142.96145025405866,
+      "mae_b23": 151.59186945228456,
+      "mae_b28": 141.44497689530618
+    },
+    {
+      "gap_index": 9,
+      "start_idx": 72,
+      "end_idx": 80,
+      "missing_count": 7,
+      "delta_t_sec": 123.0,
+      "mae_player": NaN,
+      "mae_b23": 22.812818792766482,
+      "mae_b28": 21.536132257645363
+    },
+    {
+      "gap_index": 10,
+      "start_idx": 80,
+      "end_idx": 88,
+      "missing_count": 7,
+      "delta_t_sec": 126.0,
+      "mae_player": NaN,
+      "mae_b23": 37.52034302677747,
+      "mae_b28": 35.43297927044964
+    },
+    {
+      "gap_index": 11,
+      "start_idx": 88,
+      "end_idx": 96,
+      "missing_count": 7,
+      "delta_t_sec": 123.0,
+      "mae_player": NaN,
+      "mae_b23": 42.681246810055846,
+      "mae_b28": 43.0222416084236
+    },
+    {
+      "gap_index": 12,
+      "start_idx": 96,
+      "end_idx": 98,
+      "missing_count": 1,
+      "delta_t_sec": 27.0,
+      "mae_player": NaN,
+      "mae_b23": 12.203394715043391,
+      "mae_b28": 11.168586371510875
+    }
+  ],
+  "completion": {
+    "total_missing": 85,
+    "filled_missing": 28,
+    "unfilled_missing": 57
+  },
+  "is_complete": false
+}

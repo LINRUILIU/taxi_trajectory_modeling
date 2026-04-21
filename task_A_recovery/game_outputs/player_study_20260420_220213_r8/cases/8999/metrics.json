@@ -1,0 +1,174 @@
+{
+  "traj_id": 8999,
+  "missing_count": 90,
+  "player": {
+    "count": 21,
+    "total_missing": 90,
+    "evaluated_missing": 21,
+    "unfilled_missing": 69,
+    "mae": 145.24359704862886,
+    "rmse": 187.93154141208376,
+    "p75": 214.75687848402822,
+    "p95": 336.8485400642037
+  },
+  "baseline23_e5": {
+    "count": 90,
+    "total_missing": 90,
+    "evaluated_missing": 90,
+    "unfilled_missing": 0,
+    "mae": 81.57208622378718,
+    "rmse": 97.15019052247665,
+    "p75": 115.9433614155853,
+    "p95": 176.1441651269113
+  },
+  "baseline28_turncurve": {
+    "count": 90,
+    "total_missing": 90,
+    "evaluated_missing": 90,
+    "unfilled_missing": 0,
+    "mae": 81.70593565992772,
+    "rmse": 98.51819055023388,
+    "p75": 133.04483661840865,
+    "p95": 175.92817453946324
+  },
+  "delta_player_vs_b23_mae": 63.671510824841675,
+  "delta_player_vs_b28_mae": 63.53766138870114,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 8,
+      "missing_count": 7,
+      "delta_t_sec": 124.0,
+      "mae_player": NaN,
+      "mae_b23": 70.40918463890637,
+      "mae_b28": 57.118366846146785
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 8,
+      "end_idx": 16,
+      "missing_count": 7,
+      "delta_t_sec": 124.0,
+      "mae_player": NaN,
+      "mae_b23": 102.22808645486825,
+      "mae_b28": 99.43444207155004
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 16,
+      "end_idx": 24,
+      "missing_count": 7,
+      "delta_t_sec": 120.0,
+      "mae_player": 148.37417753266962,
+      "mae_b23": 122.43120147912934,
+      "mae_b28": 119.91264038803675
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 24,
+      "end_idx": 32,
+      "missing_count": 7,
+      "delta_t_sec": 123.0,
+      "mae_player": NaN,
+      "mae_b23": 55.04610306155785,
+      "mae_b28": 38.23553120976207
+    },
+    {
+      "gap_index": 4,
+      "start_idx": 32,
+      "end_idx": 40,
+      "missing_count": 7,
+      "delta_t_sec": 123.0,
+      "mae_player": NaN,
+      "mae_b23": 32.8718146939324,
+      "mae_b28": 31.276201848063486
+    },
+    {
+      "gap_index": 5,
+      "start_idx": 40,
+      "end_idx": 48,
+      "missing_count": 7,
+      "delta_t_sec": 120.0,
+      "mae_player": NaN,
+      "mae_b23": 64.73554488005502,
+      "mae_b28": 95.992992159029
+    },
+    {
+      "gap_index": 6,
+      "start_idx": 48,
+      "end_idx": 56,
+      "missing_count": 7,
+      "delta_t_sec": 124.0,
+      "mae_player": NaN,
+      "mae_b23": 60.20021450094742,
+      "mae_b28": 133.29017880270843
+    },
+    {
+      "gap_index": 7,
+      "start_idx": 56,
+      "end_idx": 64,
+      "missing_count": 7,
+      "delta_t_sec": 129.0,
+      "mae_player": NaN,
+      "mae_b23": 104.86438201383716,
+      "mae_b28": 98.33943719099611
+    },
+    {
+      "gap_index": 8,
+      "start_idx": 64,
+      "end_idx": 72,
+      "missing_count": 7,
+      "delta_t_sec": 120.0,
+      "mae_player": 61.10230379222277,
+      "mae_b23": 138.59508014009,
+      "mae_b28": 106.76723880731522
+    },
+    {
+      "gap_index": 9,
+      "start_idx": 72,
+      "end_idx": 80,
+      "missing_count": 7,
+      "delta_t_sec": 123.0,
+      "mae_player": NaN,
+      "mae_b23": 55.06022402831328,
+      "mae_b28": 40.25482801126486
+    },
+    {
+      "gap_index": 10,
+      "start_idx": 80,
+      "end_idx": 88,
+      "missing_count": 7,
+      "delta_t_sec": 121.0,
+      "mae_player": NaN,
+      "mae_b23": 127.17688073134723,
+      "mae_b28": 109.55857419657436
+    },
+    {
+      "gap_index": 11,
+      "start_idx": 88,
+      "end_idx": 96,
+      "missing_count": 7,
+      "delta_t_sec": 123.0,
+      "mae_player": 226.25430982099417,
+      "mae_b23": 57.53152228365045,
+      "mae_b28": 63.01491950209813
+    },
+    {
+      "gap_index": 12,
+      "start_idx": 96,
+      "end_idx": 103,
+      "missing_count": 6,
+      "delta_t_sec": 96.0,
+      "mae_player": NaN,
+      "mae_b23": 67.23934796573367,
+      "mae_b28": 66.86112535977965
+    }
+  ],
+  "completion": {
+    "total_missing": 90,
+    "filled_missing": 21,
+    "unfilled_missing": 69
+  },
+  "is_complete": false
+}

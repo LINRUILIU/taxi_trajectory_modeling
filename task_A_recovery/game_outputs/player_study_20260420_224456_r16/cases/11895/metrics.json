@@ -1,0 +1,84 @@
+{
+  "traj_id": 11895,
+  "missing_count": 54,
+  "player": {
+    "count": 30,
+    "total_missing": 54,
+    "evaluated_missing": 30,
+    "unfilled_missing": 24,
+    "mae": 348.18371911116236,
+    "rmse": 431.12347917154193,
+    "p75": 348.60182774004545,
+    "p95": 865.2320486190131
+  },
+  "baseline23_e5": {
+    "count": 54,
+    "total_missing": 54,
+    "evaluated_missing": 54,
+    "unfilled_missing": 0,
+    "mae": 104.73288691516476,
+    "rmse": 117.36581250609743,
+    "p75": 150.1453371732512,
+    "p95": 184.6681145930585
+  },
+  "baseline28_turncurve": {
+    "count": 54,
+    "total_missing": 54,
+    "evaluated_missing": 54,
+    "unfilled_missing": 0,
+    "mae": 100.72631878222872,
+    "rmse": 117.66397508044747,
+    "p75": 139.79034549504405,
+    "p95": 210.41465776959504
+  },
+  "delta_player_vs_b23_mae": 243.4508321959976,
+  "delta_player_vs_b28_mae": 247.45740032893366,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 16,
+      "missing_count": 15,
+      "delta_t_sec": 241.0,
+      "mae_player": NaN,
+      "mae_b23": 102.5043840268886,
+      "mae_b28": 107.40137469457572
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 16,
+      "end_idx": 32,
+      "missing_count": 15,
+      "delta_t_sec": 243.0,
+      "mae_player": 206.39456954051693,
+      "mae_b23": 137.65597837914942,
+      "mae_b28": 132.27640007991633
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 32,
+      "end_idx": 48,
+      "missing_count": 15,
+      "delta_t_sec": 279.0,
+      "mae_player": 489.97286868180765,
+      "mae_b23": 89.28018108072365,
+      "mae_b28": 79.73484162097772
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 48,
+      "end_idx": 58,
+      "missing_count": 9,
+      "delta_t_sec": 160.0,
+      "mae_player": NaN,
+      "mae_b23": 79.32974901305239,
+      "mae_b28": 72.00355203425602
+    }
+  ],
+  "completion": {
+    "total_missing": 54,
+    "filled_missing": 30,
+    "unfilled_missing": 24
+  },
+  "is_complete": false
+}

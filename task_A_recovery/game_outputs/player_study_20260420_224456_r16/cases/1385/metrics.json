@@ -1,0 +1,84 @@
+{
+  "traj_id": 1385,
+  "missing_count": 52,
+  "player": {
+    "count": 52,
+    "total_missing": 52,
+    "evaluated_missing": 52,
+    "unfilled_missing": 0,
+    "mae": 275.2170985958843,
+    "rmse": 364.5386804524465,
+    "p75": 484.635840745453,
+    "p95": 786.200826317811
+  },
+  "baseline23_e5": {
+    "count": 52,
+    "total_missing": 52,
+    "evaluated_missing": 52,
+    "unfilled_missing": 0,
+    "mae": 138.31977374924026,
+    "rmse": 161.3956490387625,
+    "p75": 182.7489917676327,
+    "p95": 292.51296365455426
+  },
+  "baseline28_turncurve": {
+    "count": 52,
+    "total_missing": 52,
+    "evaluated_missing": 52,
+    "unfilled_missing": 0,
+    "mae": 142.7447681593117,
+    "rmse": 163.88559011207465,
+    "p75": 188.45936997883226,
+    "p95": 288.40250965202114
+  },
+  "delta_player_vs_b23_mae": 136.89732484664404,
+  "delta_player_vs_b28_mae": 132.4723304365726,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 16,
+      "missing_count": 15,
+      "delta_t_sec": 249.0,
+      "mae_player": 306.2116148803046,
+      "mae_b23": 175.30980383686196,
+      "mae_b28": 176.0949753939882
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 16,
+      "end_idx": 32,
+      "missing_count": 15,
+      "delta_t_sec": 243.0,
+      "mae_player": 349.7678183817174,
+      "mae_b23": 108.02126524300277,
+      "mae_b28": 116.1574676938073
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 32,
+      "end_idx": 48,
+      "missing_count": 15,
+      "delta_t_sec": 255.0,
+      "mae_player": 177.6051019723617,
+      "mae_b23": 157.6761060500559,
+      "mae_b28": 169.57452869478948
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 48,
+      "end_idx": 56,
+      "missing_count": 7,
+      "delta_t_sec": 114.0,
+      "mae_player": 258.2172997814609,
+      "mae_b23": 82.50294400166898,
+      "mae_b28": 70.76048107791894
+    }
+  ],
+  "completion": {
+    "total_missing": 52,
+    "filled_missing": 52,
+    "unfilled_missing": 0
+  },
+  "is_complete": true
+}

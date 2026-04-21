@@ -1,0 +1,84 @@
+{
+  "traj_id": 8147,
+  "missing_count": 54,
+  "player": {
+    "count": 39,
+    "total_missing": 54,
+    "evaluated_missing": 39,
+    "unfilled_missing": 15,
+    "mae": 260.0427726503974,
+    "rmse": 378.90537655686654,
+    "p75": 368.6440299289377,
+    "p95": 912.7291682007481
+  },
+  "baseline23_e5": {
+    "count": 54,
+    "total_missing": 54,
+    "evaluated_missing": 54,
+    "unfilled_missing": 0,
+    "mae": 129.40131221585247,
+    "rmse": 163.1844022876643,
+    "p75": 168.9118789048369,
+    "p95": 335.0415054970347
+  },
+  "baseline28_turncurve": {
+    "count": 54,
+    "total_missing": 54,
+    "evaluated_missing": 54,
+    "unfilled_missing": 0,
+    "mae": 121.58565809239938,
+    "rmse": 142.48481895528866,
+    "p75": 161.718086681677,
+    "p95": 258.1861097845259
+  },
+  "delta_player_vs_b23_mae": 130.64146043454494,
+  "delta_player_vs_b28_mae": 138.457114557998,
+  "gap_metrics": [
+    {
+      "gap_index": 0,
+      "start_idx": 0,
+      "end_idx": 16,
+      "missing_count": 15,
+      "delta_t_sec": 249.0,
+      "mae_player": 232.4747009871676,
+      "mae_b23": 196.82930741547497,
+      "mae_b28": 168.05448163069957
+    },
+    {
+      "gap_index": 1,
+      "start_idx": 16,
+      "end_idx": 32,
+      "missing_count": 15,
+      "delta_t_sec": 246.0,
+      "mae_player": NaN,
+      "mae_b23": 74.50380690585779,
+      "mae_b28": 88.6843392043584
+    },
+    {
+      "gap_index": 2,
+      "start_idx": 32,
+      "end_idx": 48,
+      "missing_count": 15,
+      "delta_t_sec": 243.0,
+      "mae_player": 394.51339414883427,
+      "mae_b23": 154.13562307663915,
+      "mae_b28": 138.6722076193177
+    },
+    {
+      "gap_index": 3,
+      "start_idx": 48,
+      "end_idx": 58,
+      "missing_count": 9,
+      "delta_t_sec": 143.0,
+      "mae_player": 81.87185625838589,
+      "mae_b23": 67.29331096516181,
+      "mae_b28": 70.49556779710366
+    }
+  ],
+  "completion": {
+    "total_missing": 54,
+    "filled_missing": 39,
+    "unfilled_missing": 15
+  },
+  "is_complete": false
+}
