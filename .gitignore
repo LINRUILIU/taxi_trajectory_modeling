@@ -19,3 +19,7 @@ Thumbs.db
 # Logs and temp
 *.log
 *.tmp
+
+# Private course submission materials
+project_report.md
+project_report.pdf
