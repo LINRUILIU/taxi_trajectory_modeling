@@ -64,19 +64,19 @@ Task A的输入为经过人为稀疏化的轨迹：每条轨迹原本有$N$个�
 | 简单     | `val_input_8.pkl`  | 1/8    | 约每8个点保留1个  |
 | 困难     | `val_input_16.pkl` | 1/16   | 约每16个点保留1个 |
 
-![图2-1 轨迹长度分布](task_A_recovery/analysis_outputs_baseline28_turncurve/length_distribution.png)
+![图2-1 轨迹长度分布](docs/report_figures/fig_2_1_length_distribution.png)
 
 *图2-1 两种难度下验证集轨迹长度分布*
 
 从图2-1可见，1/8和1/16两种数据集的轨迹长度分布形态一致，峰值均出现在100~150点区间，符合城市出租车典型行程长度特征。
 
-![图2-2 缺失gap大小分布](task_A_recovery/analysis_outputs_baseline28_turncurve/missing_gap_distribution.png)
+![图2-2 缺失gap大小分布](docs/report_figures/fig_2_2_missing_gap_distribution.png)
 
 *图2-2 缺失gap大小分布*
 
 图2-2展示了连续缺失点的数量（gap size）分布。在1/8保留率下，缺失gap主要分布在1~7之间；在1/16保留率下，gap显著增大，大量gap超过8个点甚至达到15+。这直接决定了不同gap长度策略的必要性。
 
-![图2-3 时间戳间隔分布](task_A_recovery/analysis_outputs_baseline28_turncurve/interval_distribution.png)
+![图2-3 时间戳间隔分布](docs/report_figures/fig_2_3_interval_distribution.png)
 
 *图2-3 时间戳间隔分布*
 
@@ -201,15 +201,15 @@ $$\hat{T}_{\text{final}} = w \cdot \hat{T}_{\text{resid}} + (1-w) \cdot \hat{T}_
 
 #### 3.3.2 结果可视化
 
-![图3-1 Phase4残差vs真实值散点图](task_B_tte/analysis_outputs_phase4_residual_ensemble/residual_vs_gt.png)
+![图3-1 Phase4残差vs真实值散点图](docs/report_figures/fig_3_1_phase4_residual_vs_gt.png)
 
 *图3-1 残差预测值与真实行程时间的散点关系*
 
-![图3-2 Phase4绝对误差直方图](task_B_tte/analysis_outputs_phase4_residual_ensemble/abs_error_hist.png)
+![图3-2 Phase4绝对误差直方图](docs/report_figures/fig_3_2_phase4_abs_error_hist.png)
 
 *图3-2 绝对误差分布直方图（大部分样本误差集中在30秒以内）*
 
-![图3-3 Phase4预测值vs真实值散点图](task_B_tte/analysis_outputs_phase4_residual_ensemble/scatter_pred_vs_gt.png)
+![图3-3 Phase4预测值vs真实值散点图](docs/report_figures/fig_3_3_phase4_pred_vs_gt.png)
 
 *图3-3 预测值与真实值的散点图（呈现强线性相关性）*
 
@@ -575,11 +575,11 @@ final 阶段的核心目标不是单纯把旧代码整理成测试流水线，�
 
 以下给出 `selector_full_val` 的两个代表性 case：
 
-![图4-1 定版版本 good case（1/8）](task_A_final/runs/selector_full_val/analysis_unified/case_gallery/case_1_8_traj24_gap56_59.png)
+![图4-1 定版版本 good case（1/8）](docs/report_figures/fig_4_1_final_good_case_8.png)
 
 *图4-1 统一分析自动筛出的 good case：该 gap 在官方 MAE、路径形状和路网贴合度上都接近理想状态。*
 
-![图4-2 定版版本 path-wrong case（1/16）](task_A_final/runs/selector_full_val/analysis_unified/case_gallery/case_1_16_traj7364_gap16_32.png)
+![图4-2 定版版本 path-wrong case（1/16）](docs/report_figures/fig_4_2_final_path_wrong_case_16.png)
 
 *图4-2 统一分析自动筛出的 path-wrong case：尽管模型已进入 final 阶段，复杂长 gap 仍可能出现明显路径偏差。*
 
@@ -593,15 +593,15 @@ final 阶段的核心目标不是单纯把旧代码整理成测试流水线，�
 
 #### 4.7.1 指标走势
 
-![图4-3 纵向 MAE 趋势](task_A_final/runs/longitudinal_report/mae_trend.png)
+![图4-3 纵向 MAE 趋势](docs/report_figures/fig_4_3_mae_trend.png)
 
 *图4-3 从几何插值基线到 selector final 的 MAE 走势。*
 
-![图4-4 纵向拓扑趋势](task_A_final/runs/longitudinal_report/topology_trend.png)
+![图4-4 纵向拓扑趋势](docs/report_figures/fig_4_4_topology_trend.png)
 
 *图4-4 各版本拓扑违规率走势。*
 
-![图4-5 纵向路径相似度趋势](task_A_final/runs/longitudinal_report/shape_trend.png)
+![图4-5 纵向路径相似度趋势](docs/report_figures/fig_4_5_shape_trend.png)
 
 *图4-5 以 `shape_symmetric_m` 表示的路径相似度走势。*
 
@@ -615,17 +615,17 @@ final 阶段的核心目标不是单纯把旧代码整理成测试流水线，�
 
 以下六张图分别对应 1/8 与 1/16 下的三类标准案例：`improvement showcase`、`topology rescue`、`remaining hard case`。
 
-![图4-6 improvement showcase（1/8）](task_A_final/runs/longitudinal_report/cases/improvement_showcase_dataset8.png)
+![图4-6 improvement showcase（1/8）](docs/report_figures/fig_4_6_improvement_showcase_8.png)
 
-![图4-7 topology rescue（1/8）](task_A_final/runs/longitudinal_report/cases/topology_rescue_dataset8.png)
+![图4-7 topology rescue（1/8）](docs/report_figures/fig_4_7_topology_rescue_8.png)
 
-![图4-8 remaining hard case（1/8）](task_A_final/runs/longitudinal_report/cases/remaining_hard_case_dataset8.png)
+![图4-8 remaining hard case（1/8）](docs/report_figures/fig_4_8_remaining_hard_case_8.png)
 
-![图4-9 improvement showcase（1/16）](task_A_final/runs/longitudinal_report/cases/improvement_showcase_dataset16.png)
+![图4-9 improvement showcase（1/16）](docs/report_figures/fig_4_9_improvement_showcase_16.png)
 
-![图4-10 topology rescue（1/16）](task_A_final/runs/longitudinal_report/cases/topology_rescue_dataset16.png)
+![图4-10 topology rescue（1/16）](docs/report_figures/fig_4_10_topology_rescue_16.png)
 
-![图4-11 remaining hard case（1/16）](task_A_final/runs/longitudinal_report/cases/remaining_hard_case_dataset16.png)
+![图4-11 remaining hard case（1/16）](docs/report_figures/fig_4_11_remaining_hard_case_16.png)
 
 这些对比图有两个关键作用：
 
