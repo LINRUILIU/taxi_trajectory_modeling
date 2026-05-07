@@ -1,0 +1,18 @@
+{
+  "strategy": { "name": "selector_mix" },
+  "base": {
+    "config": "task_A_final/configs/exp_b28_compat_8.yaml"
+  },
+  "route_candidate": {
+    "config": "task_A_final/configs/exp_route_projection_8.yaml"
+  },
+  "selector": {
+    "model": "task_A_final/runs/selector_full/selector_8.joblib",
+    "feature_columns": "task_A_final/runs/selector_full/feature_columns.json",
+    "threshold": 0.50
+  },
+  "fallback": {
+    "enabled": true,
+    "config": "task_A_final/configs/exp_b28_compat_8.yaml"
+  }
+}

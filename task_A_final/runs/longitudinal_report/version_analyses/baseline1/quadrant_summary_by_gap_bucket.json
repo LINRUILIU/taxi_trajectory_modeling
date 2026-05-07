@@ -1,0 +1,234 @@
+{
+  "1/16": {
+    "1-4": {
+      "official_threshold_m": 42.85818012537751,
+      "shape_threshold_m": 27.535332477369945,
+      "quadrants": {
+        "low_official_low_shape": {
+          "gap_count": 3254,
+          "missing_point_count": 7184,
+          "official_error_sum_m": 131897.26962938913,
+          "official_error_share": 0.3068479593409031,
+          "official_mae_mean_m": 16.232748047357177,
+          "shape_symmetric_mean_m": 11.356471925948652
+        },
+        "high_official_low_shape": {
+          "gap_count": 358,
+          "missing_point_count": 1171,
+          "official_error_sum_m": 71473.14089328054,
+          "official_error_share": 0.1662762807176508,
+          "official_mae_mean_m": 59.89930060251041,
+          "shape_symmetric_mean_m": 20.854901537031605
+        },
+        "high_official_high_shape": {
+          "gap_count": 846,
+          "missing_point_count": 2611,
+          "official_error_sum_m": 191518.97215777144,
+          "official_error_share": 0.4455528605467432,
+          "official_mae_mean_m": 71.67174904807207,
+          "shape_symmetric_mean_m": 49.17974306795338
+        },
+        "low_official_high_shape": {
+          "gap_count": 358,
+          "missing_point_count": 979,
+          "official_error_sum_m": 34956.29696070461,
+          "official_error_share": 0.08132289939470297,
+          "official_mae_mean_m": 35.484030149965406,
+          "shape_symmetric_mean_m": 32.833916728059954
+        }
+      }
+    },
+    "5-8": {
+      "official_threshold_m": 102.01294218027911,
+      "shape_threshold_m": 53.91134322096126,
+      "quadrants": {
+        "low_official_low_shape": {
+          "gap_count": 2793,
+          "missing_point_count": 17664,
+          "official_error_sum_m": 900810.4156460133,
+          "official_error_share": 0.4233425449005467,
+          "official_mae_mean_m": 50.28475643362505,
+          "shape_symmetric_mean_m": 25.04364180148718
+        },
+        "high_official_high_shape": {
+          "gap_count": 693,
+          "missing_point_count": 4750,
+          "official_error_sum_m": 720456.1742291157,
+          "official_error_share": 0.33858372970602907,
+          "official_mae_mean_m": 150.39133594696224,
+          "shape_symmetric_mean_m": 101.82804958217528
+        },
+        "low_official_high_shape": {
+          "gap_count": 357,
+          "missing_point_count": 2318,
+          "official_error_sum_m": 195791.5414134986,
+          "official_error_share": 0.09201368897644152,
+          "official_mae_mean_m": 84.21389948866313,
+          "shape_symmetric_mean_m": 66.4889357712317
+        },
+        "high_official_low_shape": {
+          "gap_count": 357,
+          "missing_point_count": 2430,
+          "official_error_sum_m": 310794.1871161652,
+          "official_error_share": 0.14606003641698273,
+          "official_mae_mean_m": 127.44508368037384,
+          "shape_symmetric_mean_m": 33.74861878214985
+        }
+      }
+    },
+    "9-15": {
+      "official_threshold_m": 228.0504054899352,
+      "shape_threshold_m": 131.07576348287847,
+      "quadrants": {
+        "low_official_low_shape": {
+          "gap_count": 51846,
+          "missing_point_count": 761085,
+          "official_error_sum_m": 90037476.32130127,
+          "official_error_share": 0.4574172067561164,
+          "official_mae_mean_m": 117.90090037026592,
+          "shape_symmetric_mean_m": 47.15789617858681
+        },
+        "high_official_high_shape": {
+          "gap_count": 13493,
+          "missing_point_count": 201189,
+          "official_error_sum_m": 65625009.333744116,
+          "official_error_share": 0.3333946006623419,
+          "official_mae_mean_m": 325.9382974672644,
+          "shape_symmetric_mean_m": 226.44300935394523
+        },
+        "low_official_high_shape": {
+          "gap_count": 5685,
+          "missing_point_count": 84047,
+          "official_error_sum_m": 16608582.92768224,
+          "official_error_share": 0.08437654986960585,
+          "official_mae_mean_m": 197.51408780401323,
+          "shape_symmetric_mean_m": 155.36758550411295
+        },
+        "high_official_low_shape": {
+          "gap_count": 5685,
+          "missing_point_count": 84804,
+          "official_error_sum_m": 24567780.047002714,
+          "official_error_share": 0.12481164271193579,
+          "official_mae_mean_m": 289.59904881942276,
+          "shape_symmetric_mean_m": 72.85520689812714
+        }
+      }
+    }
+  },
+  "1/8": {
+    "1-2": {
+      "official_threshold_m": 28.21434143209057,
+      "shape_threshold_m": 20.994001647662245,
+      "quadrants": {
+        "low_official_low_shape": {
+          "gap_count": 3049,
+          "missing_point_count": 4306,
+          "official_error_sum_m": 47057.671665025475,
+          "official_error_share": 0.33124981237260415,
+          "official_mae_mean_m": 10.192549021432733,
+          "shape_symmetric_mean_m": 7.583035767963031
+        },
+        "high_official_high_shape": {
+          "gap_count": 875,
+          "missing_point_count": 1474,
+          "official_error_sum_m": 73850.08845683868,
+          "official_error_share": 0.5198478182083425,
+          "official_mae_mean_m": 49.516552771196174,
+          "shape_symmetric_mean_m": 37.63713674277685
+        },
+        "low_official_high_shape": {
+          "gap_count": 213,
+          "missing_point_count": 335,
+          "official_error_sum_m": 8277.131637883294,
+          "official_error_share": 0.058264640068666315,
+          "official_mae_mean_m": 24.62085618101259,
+          "shape_symmetric_mean_m": 23.93773714107787
+        },
+        "high_official_low_shape": {
+          "gap_count": 213,
+          "missing_point_count": 346,
+          "official_error_sum_m": 12876.084299290942,
+          "official_error_share": 0.0906377293503871,
+          "official_mae_mean_m": 36.450572227301315,
+          "shape_symmetric_mean_m": 16.714422938043125
+        }
+      }
+    },
+    "3-4": {
+      "official_threshold_m": 55.34269851309257,
+      "shape_threshold_m": 32.95479220136194,
+      "quadrants": {
+        "low_official_high_shape": {
+          "gap_count": 394,
+          "missing_point_count": 1370,
+          "official_error_sum_m": 61626.05184459385,
+          "official_error_share": 0.10088486999553203,
+          "official_mae_mean_m": 44.94279786258381,
+          "shape_symmetric_mean_m": 39.48976690729947
+        },
+        "low_official_low_shape": {
+          "gap_count": 2735,
+          "missing_point_count": 9402,
+          "official_error_sum_m": 240229.36585330233,
+          "official_error_share": 0.3932672565871274,
+          "official_mae_mean_m": 25.37721247041894,
+          "shape_symmetric_mean_m": 16.2554247330688
+        },
+        "high_official_low_shape": {
+          "gap_count": 394,
+          "missing_point_count": 1435,
+          "official_error_sum_m": 105342.31192193442,
+          "official_error_share": 0.1724505322858101,
+          "official_mae_mean_m": 73.0553064666067,
+          "shape_symmetric_mean_m": 24.178041858070795
+        },
+        "high_official_high_shape": {
+          "gap_count": 650,
+          "missing_point_count": 2345,
+          "official_error_sum_m": 203657.5140586628,
+          "official_error_share": 0.3333973411315304,
+          "official_mae_mean_m": 86.47226231996434,
+          "shape_symmetric_mean_m": 57.45857593860591
+        }
+      }
+    },
+    "5-7": {
+      "official_threshold_m": 126.80699322356742,
+      "shape_threshold_m": 57.55163427202671,
+      "quadrants": {
+        "low_official_low_shape": {
+          "gap_count": 100753,
+          "missing_point_count": 700472,
+          "official_error_sum_m": 42195707.921290666,
+          "official_error_share": 0.42276728367928834,
+          "official_mae_mean_m": 60.17035766399064,
+          "shape_symmetric_mean_m": 24.98200323721573
+        },
+        "low_official_high_shape": {
+          "gap_count": 14680,
+          "missing_point_count": 102145,
+          "official_error_sum_m": 10131223.099652765,
+          "official_error_share": 0.10150676173459607,
+          "official_mae_mean_m": 99.16031365796454,
+          "shape_symmetric_mean_m": 77.1740390104331
+        },
+        "high_official_high_shape": {
+          "gap_count": 23798,
+          "missing_point_count": 166256,
+          "official_error_sum_m": 31220132.232596014,
+          "official_error_share": 0.3128007835465909,
+          "official_mae_mean_m": 187.73254033679513,
+          "shape_symmetric_mean_m": 124.49886016786662
+        },
+        "high_official_low_shape": {
+          "gap_count": 14680,
+          "missing_point_count": 102661,
+          "official_error_sum_m": 16261293.613782307,
+          "official_error_share": 0.16292517103952459,
+          "official_mae_mean_m": 158.3900762945266,
+          "shape_symmetric_mean_m": 34.995816613551895
+        }
+      }
+    }
+  }
+}

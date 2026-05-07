@@ -1,0 +1,27 @@
+{
+  "global": {
+    "count": 16582,
+    "mae": 16.374663005621276,
+    "rmse": 25.408018845648012,
+    "mape": 1.410229931418416,
+    "bias": -0.1565537709240106,
+    "p50_abs_error": 11.915776233952101,
+    "p90_abs_error": 33.2211470619932,
+    "p95_abs_error": 44.832829742284524
+  },
+  "coverage": {
+    "gt_count": 16582,
+    "pred_count": 16582,
+    "matched_count": 16582,
+    "missing_pred_count": 0,
+    "extra_pred_count": 0,
+    "missing_pred_preview": [],
+    "extra_pred_preview": []
+  },
+  "meta": {
+    "generated_at": "2026-04-20T14:40:16",
+    "pred": "task_B_tte\\pred_val_phase4_residual_ensemble.pkl",
+    "gt": "task_B_tte\\val_gt.pkl",
+    "input": "task_B_tte\\val_input.pkl"
+  }
+}

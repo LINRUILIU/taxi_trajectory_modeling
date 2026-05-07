@@ -1,0 +1,17 @@
+{
+  "official_threshold_m": 133.3243622569451,
+  "shape_threshold_m": 44.16328170890257,
+  "low_official_low_shape": 158655,
+  "high_official_high_shape": 34576,
+  "low_official_high_shape": 27464,
+  "high_official_low_shape": 27464,
+  "review_queue_path_wrong.csv": 34576,
+  "review_queue_path_wrong_8.csv": 13160,
+  "review_queue_path_wrong_16.csv": 21416,
+  "review_queue_phase_wrong.csv": 27464,
+  "review_queue_phase_wrong_8.csv": 12334,
+  "review_queue_phase_wrong_16.csv": 15130,
+  "review_queue_metric_cheat.csv": 27464,
+  "review_queue_metric_cheat_8.csv": 18842,
+  "review_queue_metric_cheat_16.csv": 8622
+}

@@ -1,0 +1,107 @@
+{
+  "run_name": "route_projection_full",
+  "timestamp": "2026-04-30T16:17:35+00:00",
+  "version_tag": "manual",
+  "script": "scripts/run_predict.py",
+  "predict_mode": "route_projection",
+  "analysis_mode": null,
+  "input_path": "task_A_final\\val_input_16.pkl",
+  "output_path": "task_A_final\\runs\\route_projection_full\\pred_16.pkl",
+  "config_path": "task_A_final\\configs\\exp_route_projection_16.yaml",
+  "config_snapshot_path": "task_A_final\\runs\\route_projection_full\\config_16.yaml",
+  "runtime_sec": 504.9449393749237,
+  "used_wrapper": false,
+  "map_path": "map",
+  "cache_path": "task_A_final/caches/map_graph_cache.pkl",
+  "strategy_summary": {
+    "name": "route_projection"
+  },
+  "stats": {
+    "predict_impl": "route_projection",
+    "segments_projected": 62500,
+    "segments_fallback": 14209,
+    "projection_raw_backtracks": 3848,
+    "last_snap_dist_mean_m": 24.431978875283168
+  },
+  "prediction_runs": [
+    {
+      "run_name": "route_projection_full",
+      "timestamp": "2026-04-30T16:17:53+00:00",
+      "version_tag": "manual",
+      "script": "scripts/run_predict.py",
+      "predict_mode": "route_projection",
+      "analysis_mode": null,
+      "input_path": "task_A_final\\val_input_8.pkl",
+      "output_path": "task_A_final\\runs\\route_projection_full\\pred_8.pkl",
+      "config_path": "task_A_final\\configs\\exp_route_projection_8.yaml",
+      "config_snapshot_path": "task_A_final\\runs\\route_projection_full\\config_8.yaml",
+      "runtime_sec": 523.4285542964935,
+      "used_wrapper": false,
+      "map_path": "map",
+      "cache_path": "task_A_final/caches/map_graph_cache.pkl",
+      "strategy_summary": {
+        "name": "route_projection"
+      },
+      "stats": {
+        "predict_impl": "route_projection",
+        "segments_projected": 146168,
+        "segments_fallback": 7743,
+        "projection_raw_backtracks": 4037,
+        "last_snap_dist_mean_m": 44.437871097013215
+      }
+    },
+    {
+      "run_name": "route_projection_full",
+      "timestamp": "2026-04-30T16:26:02+00:00",
+      "version_tag": "manual",
+      "script": "scripts/run_predict.py",
+      "predict_mode": "route_projection",
+      "analysis_mode": null,
+      "input_path": "task_A_final\\val_input_16.pkl",
+      "output_path": "task_A_final\\runs\\route_projection_full\\pred_16.pkl",
+      "config_path": "task_A_final\\configs\\exp_route_projection_16.yaml",
+      "config_snapshot_path": "task_A_final\\runs\\route_projection_full\\config_16.yaml",
+      "runtime_sec": 505.1317765712738,
+      "used_wrapper": false,
+      "map_path": "map",
+      "cache_path": "task_A_final/caches/map_graph_cache.pkl",
+      "strategy_summary": {
+        "name": "route_projection"
+      },
+      "stats": {
+        "predict_impl": "route_projection",
+        "segments_projected": 62500,
+        "segments_fallback": 14209,
+        "projection_raw_backtracks": 3848,
+        "last_snap_dist_mean_m": 24.431978875283168
+      }
+    },
+    {
+      "run_name": "route_projection_full",
+      "timestamp": "2026-04-30T16:26:22+00:00",
+      "version_tag": "manual",
+      "script": "scripts/run_predict.py",
+      "predict_mode": "route_projection",
+      "analysis_mode": null,
+      "input_path": "task_A_final\\val_input_8.pkl",
+      "output_path": "task_A_final\\runs\\route_projection_full\\pred_8.pkl",
+      "config_path": "task_A_final\\configs\\exp_route_projection_8.yaml",
+      "config_snapshot_path": "task_A_final\\runs\\route_projection_full\\config_8.yaml",
+      "runtime_sec": 526.4230308532715,
+      "used_wrapper": false,
+      "map_path": "map",
+      "cache_path": "task_A_final/caches/map_graph_cache.pkl",
+      "strategy_summary": {
+        "name": "route_projection"
+      },
+      "stats": {
+        "predict_impl": "route_projection",
+        "segments_projected": 146168,
+        "segments_fallback": 7743,
+        "projection_raw_backtracks": 4037,
+        "last_snap_dist_mean_m": 44.437871097013215
+      }
+    }
+  ],
+  "last_updated": "2026-04-30T16:26:22+00:00"
+}

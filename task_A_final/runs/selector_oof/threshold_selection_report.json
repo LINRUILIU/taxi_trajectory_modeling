@@ -1,0 +1,16 @@
+{
+  "best_by_dataset": {
+    "1/8": {
+      "threshold": 0.5,
+      "mae_delta": -3.307556139077832,
+      "p95_delta": -9.464171184843536,
+      "selection_bias_note": "Best threshold chosen from OOF sweep; treat as mildly optimistic until full-val fixed-threshold validation."
+    },
+    "1/16": {
+      "threshold": 0.5,
+      "mae_delta": -3.2136988401481688,
+      "p95_delta": -9.526105115338225,
+      "selection_bias_note": "Best threshold chosen from OOF sweep; treat as mildly optimistic until full-val fixed-threshold validation."
+    }
+  }
+}

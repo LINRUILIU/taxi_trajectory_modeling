@@ -1,0 +1,21 @@
+{
+  "strategy": { "name": "selector_mix" },
+  "base": {
+    "config": "task_A_final/configs/exp_b28_compat_8.yaml",
+    "pred_path": "task_A_final/runs/b28_compat_full/pred_8.pkl"
+  },
+  "route_candidate": {
+    "config": "task_A_final/configs/exp_route_projection_8.yaml",
+    "pred_path": "task_A_final/runs/route_projection_full/pred_8.pkl",
+    "debug_csv": "task_A_final/runs/route_projection_full_debug/debug_8.csv"
+  },
+  "selector": {
+    "model": "task_A_final/runs/selector_full/selector_8.joblib",
+    "feature_columns": "task_A_final/runs/selector_full/feature_columns.json",
+    "threshold": 0.50
+  },
+  "fallback": {
+    "enabled": true,
+    "config": "task_A_final/configs/exp_b28_compat_8.yaml"
+  }
+}

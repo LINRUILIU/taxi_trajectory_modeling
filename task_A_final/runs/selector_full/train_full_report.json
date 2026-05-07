@@ -1,0 +1,88 @@
+{
+  "mode": "train-full",
+  "feature_columns": [
+    "feature_dataset_encoded",
+    "feature_gap_size",
+    "feature_gap_bucket_encoded",
+    "feature_delta_t_sec",
+    "feature_anchor_direct_m",
+    "feature_anchor_speed_mps",
+    "feature_route_found",
+    "feature_applied_projection",
+    "feature_route_length_m",
+    "feature_detour_ratio",
+    "feature_start_snap_m",
+    "feature_end_snap_m",
+    "feature_max_snap_m",
+    "feature_base_to_route_mean_m",
+    "feature_base_to_route_p95_m",
+    "feature_projection_s_monotonic_violations",
+    "feature_projection_s_clamped_mean_m",
+    "feature_projection_s_clamped_max_m",
+    "feature_route_sample_vs_base_mean_m",
+    "feature_fallback_reason_encoded",
+    "feature_pred_pair_mean_dist_m",
+    "feature_pred_pair_p95_dist_m",
+    "feature_pred_pair_max_dist_m",
+    "feature_b28_missing_path_len_m",
+    "feature_route_missing_path_len_m",
+    "feature_pred_path_length_ratio",
+    "feature_start_direction_diff_deg",
+    "feature_end_direction_diff_deg",
+    "feature_max_turn_b28_deg",
+    "feature_max_turn_route_deg"
+  ],
+  "feature_schema_hash": "28be100322572508a5980ba97b5235d581368d5ad5765300967cc63649f98664",
+  "model_params": {
+    "max_iter": 200,
+    "learning_rate": 0.04,
+    "max_leaf_nodes": 31,
+    "l2_regularization": 0.05,
+    "random_state": 20260501
+  },
+  "thresholds": {
+    "1/8": 0.5,
+    "1/16": 0.5
+  },
+  "expected_selection_stats_from_oof": {
+    "1/8": {
+      "selection_rate": 0.14777078690421955,
+      "selected_count": 24003,
+      "selected_missing_count": 166966,
+      "recommended_selection_rate_range": [
+        0.05,
+        0.25
+      ]
+    },
+    "1/16": {
+      "selection_rate": 0.10709827938174395,
+      "selected_count": 9181,
+      "selected_missing_count": 133158,
+      "recommended_selection_rate_range": [
+        0.05,
+        0.25
+      ]
+    }
+  },
+  "datasets": {
+    "1/8": {
+      "row_count": 162434,
+      "positive_rate_gap": 0.3334215743009468,
+      "positive_rate_missing_weighted": 0.3437591243214251,
+      "prob_mean": 0.33352960131743026,
+      "prob_p95": 0.6052155259405211,
+      "feature_nan_count": 134630,
+      "feature_clip_count": 0
+    },
+    "1/16": {
+      "row_count": 85725,
+      "positive_rate_gap": 0.315893846602508,
+      "positive_rate_missing_weighted": 0.3309266880413457,
+      "prob_mean": 0.3159295500143921,
+      "prob_p95": 0.5700935026753519,
+      "feature_nan_count": 117026,
+      "feature_clip_count": 0
+    }
+  },
+  "sanity_only_note": "Full-val training artifacts are for fixed-threshold deployment only; do not treat any full-val metrics as unbiased evaluation."
+}

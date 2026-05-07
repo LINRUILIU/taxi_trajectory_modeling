@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-05-06T11:29:58+00:00",
+  "version_tag": "manual",
+  "script": "scripts/run_longitudinal_analysis.py",
+  "analysis_mode": "longitudinal_multi_version",
+  "input_paths": {
+    "input_8": "task_A_final\\val_input_8.pkl",
+    "input_16": "task_A_final\\val_input_16.pkl",
+    "gt": "task_A_final\\val_gt.pkl",
+    "map": "map",
+    "versions": [
+      "baseline1=task_A_recovery\\pred_linear_val_8.pkl,task_A_recovery\\pred_linear_val_16.pkl",
+      "baseline23e5=task_A_recovery\\pred_hmm_val_8_b23_e5_gapaware.pkl,task_A_recovery\\pred_hmm_val_16_b23_e5_gapaware.pkl",
+      "b28_compat=task_A_final\\runs\\b28_compat_full\\pred_8.pkl,task_A_final\\runs\\b28_compat_full\\pred_16.pkl",
+      "final=task_A_final\\runs\\selector_full_val\\pred_8.pkl,task_A_final\\runs\\selector_full_val\\pred_16.pkl"
+    ]
+  },
+  "runtime_sec": 166.13078117370605,
+  "generated_outputs": [
+    "task_A_final\\runs\\longitudinal_report\\longitudinal_metrics.csv",
+    "task_A_final\\runs\\longitudinal_report\\mae_trend.png",
+    "task_A_final\\runs\\longitudinal_report\\topology_trend.png",
+    "task_A_final\\runs\\longitudinal_report\\shape_trend.png",
+    "task_A_final\\runs\\longitudinal_report\\longitudinal_case_overview.csv",
+    "task_A_final\\runs\\longitudinal_report\\longitudinal_summary.md",
+    "task_A_final\\runs\\longitudinal_report\\longitudinal_manifest.json",
+    "task_A_final\\runs\\longitudinal_report\\cases\\improvement_showcase_dataset8.png",
+    "task_A_final\\runs\\longitudinal_report\\cases\\topology_rescue_dataset8.png",
+    "task_A_final\\runs\\longitudinal_report\\cases\\remaining_hard_case_dataset8.png",
+    "task_A_final\\runs\\longitudinal_report\\cases\\improvement_showcase_dataset16.png",
+    "task_A_final\\runs\\longitudinal_report\\cases\\topology_rescue_dataset16.png",
+    "task_A_final\\runs\\longitudinal_report\\cases\\remaining_hard_case_dataset16.png"
+  ]
+}

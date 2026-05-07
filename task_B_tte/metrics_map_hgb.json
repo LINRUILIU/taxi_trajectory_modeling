@@ -1,0 +1,62 @@
+{
+  "dataset_stats": {
+    "total": 132657,
+    "used": 132657,
+    "drop_invalid_tt": 0,
+    "drop_tt_range": 0,
+    "drop_speed_range": 0,
+    "drop_short_coords": 0
+  },
+  "train": {
+    "count": 132657,
+    "mae": 15.683437487224863,
+    "rmse": 23.48083964114119,
+    "mape": 1.3572311609569536
+  },
+  "train_buckets": {
+    "short_le_10m": {
+      "count": 0,
+      "mae": NaN,
+      "rmse": NaN,
+      "mape": NaN
+    },
+    "medium_10m_30m": {
+      "count": 122331,
+      "mae": 14.902553573795851,
+      "rmse": 21.732689023401285,
+      "mape": 1.37424554648017
+    },
+    "long_gt_30m": {
+      "count": 10326,
+      "mae": 24.9344843605238,
+      "rmse": 38.57108774503312,
+      "mape": 1.1556635844083787
+    }
+  },
+  "val": {
+    "count": 16582,
+    "mae": 16.399533126120883,
+    "rmse": 25.52034538468083,
+    "mape": 1.411668511626042
+  },
+  "val_buckets": {
+    "short_le_10m": {
+      "count": 0,
+      "mae": NaN,
+      "rmse": NaN,
+      "mape": NaN
+    },
+    "medium_10m_30m": {
+      "count": 15261,
+      "mae": 15.517149604961542,
+      "rmse": 22.848038038147077,
+      "mape": 1.4284616701584147
+    },
+    "long_gt_30m": {
+      "count": 1321,
+      "mae": 26.593367279347717,
+      "rmse": 46.30899482109961,
+      "mape": 1.2176636725930792
+    }
+  }
+}

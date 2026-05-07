@@ -1,0 +1,22 @@
+{
+  "strategy": { "name": "route_s" },
+  "base_interpolation": "pchip",
+  "map": {
+    "osm_path": "map",
+    "cache_path": "task_A_final/caches/map_graph_cache.pkl",
+    "candidate_radius_m": 180.0,
+    "cell_size_deg": 0.0015,
+    "force_rebuild": false
+  },
+  "routing": {
+    "astar_max_expansions": 7000,
+    "astar_road_class_weight": 1.0,
+    "astar_turn_penalty_m": 55.0,
+    "astar_turn_angle_threshold_deg": 55.0
+  },
+  "route_projection": {
+    "min_gap": 9,
+    "beta": 0.85,
+    "max_projection_dist_m": 250.0
+  }
+}

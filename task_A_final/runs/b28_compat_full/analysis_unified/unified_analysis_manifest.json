@@ -1,0 +1,12 @@
+{
+  "run_name": "b28_compat_full",
+  "case_categories": [
+    "good_case",
+    "bad_case",
+    "metric_cheat",
+    "path_wrong"
+  ],
+  "selected_case_count": 8,
+  "case_overview_csv": "task_A_final\\runs\\b28_compat_full\\analysis_unified\\case_gallery\\case_overview.csv",
+  "summary_md": "task_A_final\\runs\\b28_compat_full\\analysis_unified\\summary.md"
+}

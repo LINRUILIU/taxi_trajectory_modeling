@@ -1,0 +1,24 @@
+{
+  "experiments": [
+    {
+      "name": "pchip_only",
+      "config_8": "D:/student_release/student_release/task_A_final/configs/exp_pchip_only_8.yaml",
+      "config_16": "D:/student_release/student_release/task_A_final/configs/exp_pchip_only_16.yaml"
+    },
+    {
+      "name": "b28_compat",
+      "config_8": "D:/student_release/student_release/task_A_final/configs/exp_b28_compat_8.yaml",
+      "config_16": "D:/student_release/student_release/task_A_final/configs/exp_b28_compat_16.yaml"
+    },
+    {
+      "name": "route_projection",
+      "config_8": "D:/student_release/student_release/task_A_final/configs/exp_route_projection_8.yaml",
+      "config_16": "D:/student_release/student_release/task_A_final/configs/exp_route_projection_16.yaml"
+    },
+    {
+      "name": "route_s_beta085",
+      "config_8": "D:/student_release/student_release/task_A_final/configs/exp_route_s_8.yaml",
+      "config_16": "D:/student_release/student_release/task_A_final/configs/exp_route_s_16.yaml"
+    }
+  ]
+}

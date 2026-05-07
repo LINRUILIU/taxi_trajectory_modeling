@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Temporary and smoke outputs
+*_smoke*
+_smoke*
+task_A_final/runs/golden_regression/
+task_A_final/runs/selector_integrated_val/
+task_A_final/runs/selector_oof/gap_selector_dataset.csv
+task_A_final/runs/selector_oof/selector_oof_gap_predictions.csv
+task_A_final/runs/selector_oof/mixed_oof_pred_*.pkl
+task_A_final/runs/selector_oof/analysis/
+task_A_final/runs/selector_oof/compare_vs_b28/
+task_A_final/runs/selector_oof/thresholds/
+task_A_recovery/game_outputs/player_study_*/cases/
+task_A_recovery/game_outputs/player_study_*/player_predictions_*.pkl
+task_A_recovery/game_outputs/smoke_free_draw_update/

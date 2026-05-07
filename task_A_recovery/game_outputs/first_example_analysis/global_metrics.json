@@ -1,0 +1,60 @@
+{
+  "overall": {
+    "case_count": 76,
+    "missing_points_total": 5481,
+    "player_mae_case_mean_m": 296.45039830812925,
+    "player_rmse_case_mean_m": 375.985682191135,
+    "b23_mae_case_mean_m": 114.7240295393012,
+    "b23_rmse_case_mean_m": 148.30303333910135,
+    "b28_mae_case_mean_m": 110.69230131018537,
+    "b28_rmse_case_mean_m": 142.42976939699906,
+    "player_mae_weighted_m": 308.73057342135684,
+    "player_rmse_weighted_m": 429.46910455871404,
+    "b23_mae_weighted_m": 117.06601694298713,
+    "b23_rmse_weighted_m": 162.6945616497629,
+    "b28_mae_weighted_m": 112.95208790543586,
+    "b28_rmse_weighted_m": 157.7630137354094,
+    "delta_player_minus_b23_mae_case_mean_m": 181.72636876882808,
+    "delta_player_minus_b28_mae_case_mean_m": 185.7580969979439
+  },
+  "by_dataset": {
+    "8": {
+      "case_count": 38,
+      "missing_points_total": 2430,
+      "player_mae_case_mean_m": 208.04226115105698,
+      "player_rmse_case_mean_m": 263.46923764460917,
+      "b23_mae_case_mean_m": 83.52781364866075,
+      "b23_rmse_case_mean_m": 110.0550799739474,
+      "b28_mae_case_mean_m": 80.70160141247482,
+      "b28_rmse_case_mean_m": 105.03558203995503,
+      "player_mae_weighted_m": 206.4826180595995,
+      "player_rmse_weighted_m": 272.7985381565939,
+      "b23_mae_weighted_m": 81.85135124126856,
+      "b23_rmse_weighted_m": 110.60930194226694,
+      "b28_mae_weighted_m": 79.12164353951529,
+      "b28_rmse_weighted_m": 106.01527543095534,
+      "delta_player_minus_b23_mae_case_mean_m": 124.51444750239615,
+      "delta_player_minus_b28_mae_case_mean_m": 127.34065973858208
+    },
+    "16": {
+      "case_count": 38,
+      "missing_points_total": 3051,
+      "player_mae_case_mean_m": 384.85853546520156,
+      "player_rmse_case_mean_m": 488.5021267376608,
+      "b23_mae_case_mean_m": 145.92024542994167,
+      "b23_rmse_case_mean_m": 186.55098670425525,
+      "b28_mae_case_mean_m": 140.6830012078959,
+      "b28_rmse_case_mean_m": 179.8239567540431,
+      "player_mae_weighted_m": 390.16699804576535,
+      "player_rmse_weighted_m": 521.6071121010798,
+      "b23_mae_weighted_m": 145.11309582046215,
+      "b23_rmse_weighted_m": 194.44076943298077,
+      "b28_mae_weighted_m": 139.89668961280617,
+      "b28_rmse_weighted_m": 189.1052460128199,
+      "delta_player_minus_b23_mae_case_mean_m": 238.93829003525997,
+      "delta_player_minus_b28_mae_case_mean_m": 244.17553425730574
+    }
+  },
+  "session_dir_8": "task_A_recovery\\game_outputs\\player_study_20260420_220213_r8",
+  "session_dir_16": "task_A_recovery\\game_outputs\\player_study_20260420_224456_r16"
+}

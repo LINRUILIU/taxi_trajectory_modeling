@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "name": "pchip_only_8",
+      "config": "configs/exp_pchip_only_8.yaml",
+      "input": "golden/golden_input_8.pkl",
+      "expected_output": "golden/golden_expected_pchip_8.pkl",
+      "atol": 1e-5
+    },
+    {
+      "name": "pchip_only_16",
+      "config": "configs/exp_pchip_only_16.yaml",
+      "input": "golden/golden_input_16.pkl",
+      "expected_output": "golden/golden_expected_pchip_16.pkl",
+      "atol": 1e-5
+    },
+    {
+      "name": "b28_compat_8",
+      "config": "configs/exp_b28_compat_8.yaml",
+      "input": "golden/golden_input_8.pkl",
+      "expected_output": "golden/golden_expected_b28_8.pkl",
+      "atol": 1e-5
+    },
+    {
+      "name": "b28_compat_16",
+      "config": "configs/exp_b28_compat_16.yaml",
+      "input": "golden/golden_input_16.pkl",
+      "expected_output": "golden/golden_expected_b28_16.pkl",
+      "atol": 1e-5
+    }
+  ]
+}

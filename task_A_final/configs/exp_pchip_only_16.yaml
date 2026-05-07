@@ -1,0 +1,4 @@
+{
+  "strategy": { "name": "pchip_only" },
+  "base_interpolation": "pchip"
+}
