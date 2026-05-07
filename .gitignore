@@ -23,7 +23,12 @@ task_A_recovery/game_outputs/player_study_*/player_predictions_*.pkl
 task_A_recovery/game_outputs/smoke_free_draw_update/
 
 # Generated experiment outputs and caches (main/code-lite branches)
+map
+data_ds15/
 data_org/
+task_A_final/*.pkl
+task_A_final/golden/*.pkl
+task_B_tte/*.pkl
 task_A_final/caches/
 task_A_final/runs/
 task_A_final/submissions/

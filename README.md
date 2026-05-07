@@ -40,6 +40,8 @@ task_B_tte/val_input.pkl
 task_B_tte/val_gt.pkl
 ```
 
+The `release/code-lite` branch intentionally does not include these files. Place the required data and `map` file at the paths above before running the reproduction commands.
+
 Classroom test files should be placed as:
 
 ```text
@@ -142,7 +144,7 @@ python task_B_tte/scripts/make_submission.py --pred task_B_tte/submissions/onsit
 
 ## Report Artifacts
 
-The main report is `project_report.md`. Key verification notes are in `docs/report_audit.md`.
+The main report is `project_report.md`. Stable report figures are stored in `docs/report_figures/`; key verification notes are in `docs/report_audit.md`.
 
 Markdown image links can be checked with:
 
@@ -159,4 +161,3 @@ $text = Get-Content -Raw project_report.md
 - `release/full-artifacts`: complete archival branch with map, core data, report-referenced intermediate runs, analysis outputs, and final artifacts.
 - `main`: reproducible release branch with code, docs, report, map, core data, and golden fixtures; generated runs/caches/submissions are removed.
 - `release/code-lite`: lightweight code-reading branch with no data, no map, no generated outputs, and no model artifacts.
-

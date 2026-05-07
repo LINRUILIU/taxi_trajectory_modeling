@@ -28,6 +28,8 @@ This audit records the main factual checks performed against the local project f
 
 ## Evidence Files
 
+These evidence files are retained on `release/full-artifacts`. The rendered report figures used by all release branches are copied into `docs/report_figures/`.
+
 - `task_A_final/runs/selector_full_val/analysis_unified/global_metrics.json`
 - `task_A_final/runs/selector_full_val/analysis_unified/quadrant_summary_global.json`
 - `task_A_final/runs/longitudinal_report/longitudinal_metrics.csv`
