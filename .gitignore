@@ -21,3 +21,21 @@ task_A_final/runs/selector_oof/thresholds/
 task_A_recovery/game_outputs/player_study_*/cases/
 task_A_recovery/game_outputs/player_study_*/player_predictions_*.pkl
 task_A_recovery/game_outputs/smoke_free_draw_update/
+
+# Generated experiment outputs and caches (main/code-lite branches)
+data_org/
+task_A_final/caches/
+task_A_final/runs/
+task_A_final/submissions/
+task_A_recovery/analysis_outputs*/
+task_A_recovery/game_outputs/
+task_A_recovery/map_*_cache.pkl
+task_A_recovery/pred_*.pkl
+task_A_recovery/val_input_*.pkl
+task_A_recovery/val_gt.pkl
+task_B_tte/analysis_outputs*/
+task_B_tte/map_segments_cache.pkl
+task_B_tte/metrics_*.json
+task_B_tte/model_*.pkl
+task_B_tte/pred_val_*.pkl
+task_B_tte/submissions/

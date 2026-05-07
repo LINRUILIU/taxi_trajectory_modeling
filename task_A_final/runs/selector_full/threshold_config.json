@@ -1,6 +1,0 @@
-{
-  "1/8": 0.5,
-  "1/16": 0.5,
-  "source": "selector_oof_threshold_sweep",
-  "note": "Chosen from OOF sweep; final models trained on full validation data."
-}
