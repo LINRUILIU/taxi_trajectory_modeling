@@ -5,22 +5,27 @@ This repository contains a course project on Xi'an taxi GPS trajectories. It has
 - Task A: trajectory recovery from sparse GPS observations.
 - Task B: travel time estimation from a complete path and departure time.
 
+Recommended for code review: `release/code-lite`
+Recommended for minimal reproduction: `main`
+Recommended for complete archival replay: `release/full-artifacts`
+Large files are managed by Git LFS.
+
 The current release uses `task_A_final` as the reproducible Task A pipeline. `task_A_recovery` keeps the historical exploration and the player-study analysis used in the report.
 
 ## Environment
 
-Use Python 3.10+; the project was last run with Python 3.13 on Windows.
+Use Python 3.13 when possible. The project was last run with Python 3.13 on Windows, and `scikit-learn` / `joblib` model loading or `HistGradientBoostingRegressor` behavior may differ across Python 3.10/3.11/3.12/3.13 combinations.
 
 ```powershell
 python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -U pip
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+python -m pip install -U pip
+python -m pip install -r requirements.txt
 ```
 
 `pygame` is only needed for the historical interactive labeling tool:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install pygame
+python -m pip install pygame
 ```
 
 ## Data Layout
@@ -41,6 +46,7 @@ task_B_tte/val_gt.pkl
 ```
 
 The `release/code-lite` branch intentionally does not include these files. Place the required data and `map` file at the paths above before running the reproduction commands.
+`main` and `release/full-artifacts` are the branches intended for reproduction; `release/code-lite` is documentation-and-code only.
 
 Classroom test files should be placed as:
 
@@ -53,6 +59,8 @@ task_B_tte/test_input.pkl
 ## Task A Reproduction
 
 Run from the repository root.
+
+Config files under `task_A_final/configs/` keep the `.yaml` suffix, but the current repo uses JSON-compatible YAML syntax and the loader accepts that format directly.
 
 ### 1. Build the final-pipeline BL28 anchor
 
@@ -100,6 +108,8 @@ Expected final validation metrics are approximately:
 
 - 1/8: MAE `78.10m`, RMSE `105.38m`, topology violation `1.69%`, shape mean `30.84m`.
 - 1/16: MAE `137.88m`, RMSE `189.63m`, topology violation `3.93%`, shape mean `44.67m`.
+
+These `selector_full_val` numbers are retained as final-system reference and deployment sanity checks; they are not presented as a fully unbiased post-selection evaluation.
 
 ### 6. Run golden regression
 
