@@ -2,6 +2,8 @@
 
 `task_A_final` is the reproducible submission pipeline for Task A. Historical exploration stays in `task_A_recovery`; all final-facing commands should run from here.
 
+The config files in `configs/` retain the `.yaml` suffix, but the repository currently stores them in JSON-compatible YAML syntax and the loader accepts that format directly.
+
 ## Layout
 
 - `configs/`: strategy configs and batch manifests
