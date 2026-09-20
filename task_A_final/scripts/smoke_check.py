@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import math
 import sys
 from pathlib import Path
 
@@ -13,6 +12,10 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from taska.io_utils import load_pickle
+
+# Longitude/latitude are in degrees. Relative tolerance would scale with the
+# absolute coordinate, allowing visibly changed observations to pass.
+KNOWN_POINT_ATOL_DEGREES = 1e-7
 
 
 def _check_pair(input_path: Path, pred_path: Path, label: str) -> list[str]:
@@ -32,7 +35,7 @@ def _check_pair(input_path: Path, pred_path: Path, label: str) -> list[str]:
         if "traj_id" not in pred or "coords" not in pred:
             issues.append(f"{label}: item #{idx} missing traj_id/coords")
             continue
-        if int(inp["traj_id"]) != int(pred["traj_id"]):
+        if inp["traj_id"] != pred["traj_id"]:
             issues.append(f"{label}: traj_id mismatch at index {idx}")
         in_coords = np.asarray(inp["coords"], dtype=np.float64)
         mask = np.asarray(inp["mask"], dtype=bool)
@@ -42,9 +45,16 @@ def _check_pair(input_path: Path, pred_path: Path, label: str) -> list[str]:
             continue
         if pred_coords.ndim != 2 or pred_coords.shape[1] != 2:
             issues.append(f"{label}: coords must have shape [N,2] for traj_id={pred['traj_id']}")
+            continue
+        if mask.shape != (in_coords.shape[0],):
+            issues.append(f"{label}: mask shape mismatch for traj_id={pred['traj_id']}")
+            continue
         if not np.all(np.isfinite(pred_coords)):
             issues.append(f"{label}: non-finite coords for traj_id={pred['traj_id']}")
-        if not np.allclose(pred_coords[mask], in_coords[mask], atol=1e-7, equal_nan=False):
+        if not np.allclose(
+            pred_coords[mask], in_coords[mask],
+            rtol=0.0, atol=KNOWN_POINT_ATOL_DEGREES, equal_nan=False,
+        ):
             issues.append(f"{label}: known points changed for traj_id={pred['traj_id']}")
         lon_ok = np.all((pred_coords[:, 0] >= -180.0) & (pred_coords[:, 0] <= 180.0))
         lat_ok = np.all((pred_coords[:, 1] >= -90.0) & (pred_coords[:, 1] <= 90.0))

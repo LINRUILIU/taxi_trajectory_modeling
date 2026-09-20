@@ -54,6 +54,27 @@ python scripts/make_submission.py --pred-8 submissions/final/pred_test_8.pkl --p
 python scripts/run_golden_regression.py
 ```
 
+Coordinate checks use **absolute longitude/latitude degrees**, with `rtol=0`:
+the smoke check allows at most `1e-7` degrees of change at each known coordinate,
+and golden cases use their manifest `atol` (default `1e-5` degrees). These are
+per-coordinate comparison tolerances, not distance metrics in meters. Prediction
+shapes must match exactly; broadcasting, changed IDs, missing records and
+non-finite coordinates cannot pass the golden check.
+
+Run the small validation regression suite without map data or ground truth:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+It includes deliberately shifted known points, broadcastable shapes, wrong IDs,
+NaN/Inf, missing/extra records, and CLI success/failure exit codes. Stored golden
+outputs remain unchanged when tightening these checks.
+
+The `coordinate-validation` GitHub Actions workflow installs the repository's
+`requirements.txt` and runs this suite on pushes and pull requests. It does not
+download private/full datasets or run the map-dependent golden prediction pipeline.
+
 ## Troubleshooting
 
 - If `b28_compat` is slow on first run, let it build `caches/map_graph_cache.pkl`.
