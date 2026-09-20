@@ -71,9 +71,9 @@ It includes deliberately shifted known points, broadcastable shapes, wrong IDs,
 NaN/Inf, missing/extra records, and CLI success/failure exit codes. Stored golden
 outputs remain unchanged when tightening these checks.
 
-The `coordinate-validation` GitHub Actions workflow runs this NumPy-only suite
-on pushes and pull requests; it does not download private/full datasets or claim
-to run the map-dependent golden prediction pipeline.
+The `coordinate-validation` GitHub Actions workflow installs the repository's
+`requirements.txt` and runs this suite on pushes and pull requests. It does not
+download private/full datasets or run the map-dependent golden prediction pipeline.
 
 ## Troubleshooting
 
